@@ -13,7 +13,7 @@
 ## 📸 Интерфейс программы
 
 <p align="center">
-  <img src="https://i.ibb.co/6R2M57K0/Phantom-Menu.jpg" width="600" alt="PHANTOM v5.0 Main Menu">
+  <img src="menu.jpg" width="600" alt="PHANTOM v5.0 Main Menu">
 </p>
 
 ---
@@ -34,7 +34,7 @@
 
 ### Установка на Android (в Pydroid 3)
 1. Откройте вкладку **Pip** в меню Pydroid 3.
-2. Перейдите в раздел **Quick install** и установите библиотеки `requests` и `pillow` (или установите их через вкладку библиотеки).
+2. Перейдите в раздел **Quick install** и установите библиотеки `requests` и `pillow`.
 3. Запустите скрипт `phantom.py` кнопкой **Play**.
 
 ### Установка на ПК (Linux / Windows / macOS)
@@ -42,3 +42,7 @@
    ```bash
    git clone [https://github.com/kocmoc1337/Phantom-osint.git](https://github.com/kocmoc1337/Phantom-osint.git)
    cd Phantom-osint
+2. Установите зависимости:
+pip install -r requirements.txt
+3. Запустите проэкт:
+   python phantom.py
