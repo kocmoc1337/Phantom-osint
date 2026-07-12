@@ -71,3 +71,45 @@
 ```bash
 git clone https://github.com/kocmoc1337/Phantom-osint.git
 cd Phantom-osint
+```
+
+2. Установите зависимости:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Запустите проект:
+
+```bash
+python phantom.py
+```
+
+---
+
+## 🛠️ Технологии
+
+- **Python 3.8+**
+- **requests** — для работы с API
+- **pillow** — для обработки изображений
+- **Модульная архитектура** — легко добавлять новые функции
+
+---
+
+## 🤝 Вклад в проект
+
+1. Сделайте Fork проекта.
+2. Создайте свою ветку (`git checkout -b feature/AmazingFeature`).
+3. Зафиксируйте изменения (`git commit -m 'Add some AmazingFeature'`).
+4. Отправьте их в ваш Fork (`git push origin feature/AmazingFeature`).
+5. Откройте Pull Request.
+
+---
+
+## 📜 Лицензия
+
+Распространяется под лицензией **MIT**. Смотрите файл `LICENSE` для подробностей.
+
+---
+
+**Разработано с 🖤 и любовью к OSINT by [@newince](https://github.com/kocmoc1337)**
